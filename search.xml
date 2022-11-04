@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>2022年11月03日</title>
+      <link href="/2022/11/03/2022-nian-11-yue-03-ri/"/>
+      <url>/2022/11/03/2022-nian-11-yue-03-ri/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Rust操作系统"><a href="#Rust操作系统" class="headerlink" title="Rust操作系统"></a>Rust操作系统</h1><p>制作以RISC-V为内核的操作系统<br><a href="https://rcore-os.cn/rCore-Tutorial-Book-v3">Rust-Os</a><br>操作系统具有五个方面的特征：虚拟化 (Virtualization)、并发性 (Concurrency)、异步性、共享性和持久性 (Persistency)。</p><h2 id="Rust"><a href="#Rust" class="headerlink" title="Rust"></a>Rust</h2><p>Rust 在语言级别，只有一种字符串类型： str，它通常是以引用类型出现 &amp;str，也就是字符串切片。虽然语言级别只有上述的 str 类型，但是在标准库里，还有多种不同用途的字符串类型，其中使用最广的即是 String 类型。<br>str 类型是硬编码进可执行文件，也无法被修改，但是 String 则是一个可增长、可改变且具有所有权的 UTF-8 编码字符串，当 Rust 用户提到字符串时，往往指的就是 String 类型和 &amp;str 字符串切片类型，这两个类型都是 UTF-8 编码。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2022年10月31日</title>
       <link href="/2022/10/31/2022-nian-10-yue-31-ri/"/>
       <url>/2022/10/31/2022-nian-10-yue-31-ri/</url>
